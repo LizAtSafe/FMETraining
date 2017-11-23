@@ -1,0 +1,38 @@
+/*Styles for the Person Says X Section */
+
+table#xsaysborder{ /* table style */
+  border-spacing: 0px;
+}
+
+.xsaysTitlebox{ /* td table header style */
+  vertical-align: middle;
+  background-color: darkorange;
+  border: 2px solid darkorange;
+}
+
+.xsaysTitle{ /* Name says... span title*/
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.xsaysTextBorder{ /* Border around flavor text */
+  border: 1px solid darkorange;
+}
+
+.xsaysText{ /* Flavor text span*/
+  font-family: serif;
+  font-style: italic;
+  font-size: larger;
+}
+
+
+
+/*Icon sets*/
+
+.fa-quote-left{ /* quotation */
+  color: white;
+  padding-right: 12px;
+  vertical-align: text-top;
+}
